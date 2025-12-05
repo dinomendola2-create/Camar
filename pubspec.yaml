@@ -1,0 +1,22 @@
+
+name: camar
+description: Camar - Controllo 8 relè con voice & black screen
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  shared_preferences: ^2.1.1
+  speech_to_text: ^5.8.0
+  flutter_tts: ^3.6.0
+  path_provider: ^2.0.0
+  wakelock: ^0.6.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/camar_icon.png
